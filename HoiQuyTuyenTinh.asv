@@ -1,0 +1,6 @@
+function [] = HoiQuyTuyenTinh(x,f)
+    N=length(x);
+    SumX2 = sum(x.*x); SumX = sum(x);
+    SumFX =sum(f.*x); SumF = sum(f)
+    A = [SumX2
+end
